@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Buddy</title>
+
+    <!-- Fav icons  -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/android-chrome-192x192.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16"
+    href=favicon/favicon-16x16.png">
+
+    <!-- Stylesheets  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main>
+      <h1><b>BMI Buddy</b></h1>
+      <p class="def">
+        Welcome to <b>BMI Buddy</b>, your personal tool for monitoring your health! Enter your height in cm and your weight in kg to find out your Body Mass Index.
+      </p>
+      
+      <div>
+        <label for="height"><strong>Height</strong> <b>(cm): &nbsp;</b></label>
+        <input type="number" max="200" name="height" id="height" class="input" placeholder="180">
+      </div>
+      <div>
+        <label for="weight"><strong>Weight</strong> <b>(kg): &nbsp;</b></label>
+        <input type="number" max="300" id="weight" class="input" placeholder="100" />
+      </div>
+      <div>
+        <div class="button" id="calculebtn">Calculate<span class="button-border"></span></div>
+      </div>
+
+      <div class="result">
+        <h4 id="imcData">IMC: </h4>
+        <div id="imcContainer">
+          <div id="IMCbar"></div>
+        </div>
+      </div>
+<hr>
+      <b><h3>What is the body mass index (BMI)?</h3></b>
+          <p class="def">The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy. The BMI calculation divides an adult's weight in kilograms by their height in metres squared.      </p>
+
+          <span class="ifbmi range">BMI ranges</span>
+          <span class="ifbmi">If your BMI is:</span>
+          <ul>
+            <li>below 18.5 – you're in the underweight range</li>
+            <li>between 18.5 and 24.9 – you're in the healthy weight range</li>
+            <li>between 25 and 29.9 – you're in the overweight range</li>
+            <li>between 30 and 39.9 – you're in the obese range</li>
+          </ul>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
