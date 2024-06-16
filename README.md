@@ -66,7 +66,7 @@ The JavaScript adds functionality to the BMI Buddy, enabling users to input thei
 
 ## 🌐 Live Demo
 
-Check out the live demo of BMI Buddy [here](https://your-live-demo-link.com) <!-- Replace with actual live demo URL -->
+Check out the live demo of BMI Buddy [here](https://bmi-buddyofficial.netlify.app/) <!-- Replace with actual live demo URL -->
 
 ## 🤝 Contributing
 
