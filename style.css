@@ -144,3 +144,17 @@ input[type=number] {
     margin-top: 2%;
     margin-bottom: 2%;
   }
+
+  /* Responsive Styles */
+@media (max-width: 768px) {
+   .def{
+    width: 80%;
+   }
+   ul{
+    flex-direction: column;
+    gap: 1vh;
+    display: flex;
+    margin-left: 3vh;
+   }
+  }
+  
